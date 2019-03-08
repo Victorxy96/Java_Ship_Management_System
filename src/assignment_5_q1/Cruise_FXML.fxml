@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_5_q1.Cruise_FXMLController">
+   <children>
+      <Text layoutX="54.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cruise Managenment System" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="369.7509765625" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <SplitPane fx:id="splitPane" dividerPositions="0.36773547094188375" prefHeight="400.0" prefWidth="726.1494140625" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fx:id="imageCruise" fitHeight="236.0" fitWidth="363.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="90.0" />
+                  <Text fill="#5c6bda" strokeType="OUTSIDE" strokeWidth="0.0" text="Please create a cruise" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0">
+                     <font>
+                        <Font name="Britannic Bold" size="22.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Text layoutX="7.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sail Date(xxxx/xx/xx)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="60.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text depthTest="DISABLE" strokeType="OUTSIDE" strokeWidth="0.0" text="Cruise ID" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="20.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <TextField fx:id="returnDateText" layoutX="221.0" layoutY="96.0" promptText="Enter date xxxx/xx/xx" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="96.0" />
+                  <TextField fx:id="shipText" layoutX="221.0" layoutY="136.0" promptText="Enter the ship ID" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="136.0" />
+                  <TextField fx:id="supervisorText" layoutX="221.0" layoutY="177.0" promptText="Enter the supervisor ID" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="176.0" />
+                  <Text layoutX="7.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return Date(xxxx/xx/xx)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="100.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="10.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ship ID" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="140.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="36.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="340.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="10.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supervisor ID" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="181.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="12.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Name" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="260.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="20.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Money Spent" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="380.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Text>
+                  <Text layoutX="4.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sailor ID" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="220.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="31.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passenger Information:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="300.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="sailorText" layoutX="221.0" layoutY="216.0" promptText="Enter the sailor ID" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="216.0" />
+                  <TextField fx:id="portText" layoutX="221.0" layoutY="256.0" promptText="Enter the port name" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="256.0" />
+                  <TextField fx:id="passenegrIDText" layoutX="221.0" layoutY="336.0" promptText="Enter the passenger ID" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="336.0" />
+                  <TextField fx:id="passengerMoneyText" layoutX="221.0" layoutY="376.0" promptText="Enter money" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="376.0" />
+                  <TextField fx:id="sailDateText" layoutX="221.0" layoutY="56.0" promptText="Enter date xxxx/xx/xx" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="56.0" />
+                  <TextField fx:id="cruiseIDText" layoutX="221.0" layoutY="16.0" promptText="Enter the cruise ID" AnchorPane.leftAnchor="221.0" AnchorPane.topAnchor="16.0" />
+                  <Button fx:id="addPassenger" layoutX="355.0" layoutY="421.0" mnemonicParsing="false" onAction="#buttonActionAddPassenger" text="Add Passenger" AnchorPane.leftAnchor="353.0" AnchorPane.topAnchor="421.0" />
+                  <Button fx:id="addSailor" layoutX="433.0" layoutY="216.0" mnemonicParsing="false" onAction="#buttonActionAddSailor" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="216.0" />
+                  <Button fx:id="addSupervisor" layoutX="433.0" layoutY="177.0" mnemonicParsing="false" onAction="#buttonActionAddSupervisor" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="176.0" />
+                  <Button fx:id="addShip" layoutX="433.0" layoutY="136.0" mnemonicParsing="false" onAction="#buttonActionAddShip" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="136.0" />
+                  <Button fx:id="addReturnDate" layoutX="433.0" layoutY="96.0" mnemonicParsing="false" onAction="#buttonActionAddReturnDate" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="96.0" />
+                  <Button fx:id="addSailDate" layoutX="433.0" layoutY="56.0" mnemonicParsing="false" onAction="#buttonActionAddSailDate" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="56.0" />
+                  <Button fx:id="viewPort" layoutX="493.0" layoutY="254.0" mnemonicParsing="false" onAction="#buttonActionViewPort" text="View" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="254.0" />
+                  <Button fx:id="viewSailor" layoutX="493.0" layoutY="217.0" mnemonicParsing="false" onAction="#buttonActionViewSailor" text="View" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="217.0" />
+                  <Button fx:id="viewShip" layoutX="493.0" layoutY="136.0" mnemonicParsing="false" onAction="#buttonActionViewShip" text="View" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="136.0" />
+                  <Button fx:id="viewSupervisor" layoutX="493.0" layoutY="177.0" mnemonicParsing="false" onAction="#buttonActionViewSupervisor" text="View" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="176.0" />
+                  <Button fx:id="addCruiseID" layoutX="433.0" layoutY="16.0" mnemonicParsing="false" onAction="#buttonActionAddCruiseID" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="16.0" />
+                  <Button fx:id="addPort" layoutX="433.0" layoutY="259.0" mnemonicParsing="false" onAction="#buttonActionAddPort" text="Add" AnchorPane.leftAnchor="433.0" AnchorPane.topAnchor="256.0" />
+                  <Button fx:id="viewPassenger" layoutX="493.0" layoutY="421.0" mnemonicParsing="false" onAction="#buttonActionViewPassenger" text="View" AnchorPane.leftAnchor="493.0" AnchorPane.topAnchor="421.0" />
+                  <Button fx:id="generateReports" layoutX="162.0" layoutY="466.0" mnemonicParsing="false" onAction="#buttonActionGenerateReports" text="Generate Reports" AnchorPane.leftAnchor="400.0" AnchorPane.topAnchor="500.0" />
+                  <Button fx:id="uploadCruise" layoutX="360.0" layoutY="481.0" mnemonicParsing="false" onAction="#buttonActionUploadCruise" text="Finish &amp; Upload to Database" AnchorPane.leftAnchor="320.0" AnchorPane.topAnchor="461.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

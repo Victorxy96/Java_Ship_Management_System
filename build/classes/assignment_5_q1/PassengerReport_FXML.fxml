@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_5_q1.PassengerReport_FXMLController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+         <children>
+            <TableView fx:id="passengerReportView" prefHeight="788.0" prefWidth="1000.0">
+              <columns>
+                <TableColumn fx:id="passID" prefWidth="75.0" text="Passenger ID" />
+                <TableColumn fx:id="passName" prefWidth="75.0" text="Name" />
+                  <TableColumn fx:id="passAddress" prefWidth="75.0" text="Address" />
+                  <TableColumn fx:id="passNation" prefWidth="75.0" text="Nationality" />
+                  <TableColumn fx:id="passDob" prefWidth="75.0" text="Date of Birth" />
+                  <TableColumn fx:id="passMoneyAll" prefWidth="75.0" text="All Money Spent" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </VBox>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Passenger Report" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

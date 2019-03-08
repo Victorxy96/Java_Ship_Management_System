@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment_5_q1.MainController">
+   <children>
+      <Button fx:id="createCruise" layoutX="222.0" layoutY="251.0" mnemonicParsing="false" onAction="#buttonActionCreateCruise" text="Create Cruise" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="250.0" />
+      <Text layoutX="58.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cruise Managenment System" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#5c6bda" layoutX="76.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Sydeny Cruise" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="80.080078125">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="createInnerTables" layoutX="200.0" layoutY="170.0" mnemonicParsing="false" onAction="#buttonActionCreateInnerTables" text="Create Inner Tables" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="241.0" AnchorPane.topAnchor="170.0" />
+   </children>
+</AnchorPane>
